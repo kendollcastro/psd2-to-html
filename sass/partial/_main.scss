@@ -1,0 +1,41 @@
+/*Main Content*/
+
+.slider{
+    width: 600px;
+}
+
+#img-slider, img{
+    margin-bottom: 0; 
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+
+.button-slider, a{
+    text-align: center;
+
+}
+
+.main-content{
+    padding: 66px 0 66px 0;
+    background-color: #f9f9f9;
+    margin-bottom: 30px;
+}
+
+.main-text{
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+
+.main-text p{
+    margin-bottom: 30px;
+}
+
+.button-slider a{
+    color: #f9f9f9;
+    text-decoration: none;
+    background-color: #7bb84f;
+    padding: 10px 25px;
+    border-radius: 2px;
+}

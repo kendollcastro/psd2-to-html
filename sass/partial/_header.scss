@@ -1,0 +1,37 @@
+/*Header*/
+
+.logo-titulo{
+    font-size: 16px;
+    color: #ced0d1;
+    float: left;
+}
+
+
+
+/*List-nav*/
+
+#header{
+    background-color: #f9f9f9;
+}
+
+#nav-list{
+    float: right;
+}
+
+.menu-list{
+    list-style: none;
+    padding: 0;
+}
+
+.menu-list a{
+    font-size: 13px;
+    color:  #ced0d1;
+    text-decoration: none;
+}
+
+.menu-list li{
+    float: left;
+    margin-left: 20px;
+}
+
+
