@@ -1,0 +1,23 @@
+/*Footer*/
+
+#footer{
+    padding-top: 30px;
+}
+
+#footer-info{
+    float: left;
+}
+
+.iconos-footer img{
+    width: 11px;
+    height: 13px;
+    float: left;
+}
+.iconos-footer{
+    float: right;
+    padding-top: 15px;
+}
+
+.iconos-footer img + img{
+    margin-left: 20px;
+}
