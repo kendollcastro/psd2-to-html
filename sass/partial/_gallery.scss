@@ -1,0 +1,46 @@
+/*Our Gallery*/
+
+#our-gallery{
+    color: white;
+    background-color: #292c34;
+    padding-bottom: 70px;
+}
+
+#gallery-text{
+    text-align: center;
+}
+
+#our-content{
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    padding: 70px 0;
+}
+
+/*Gallery imgs*/
+
+.gallery-block img{
+    float: left;
+    width: 160px;
+    height: 160px;
+    padding: 2px;
+}
+.gallery-block{
+    padding-bottom: 250px;
+    margin-bottom: 30px;
+}
+
+
+#button-gallery a{
+    text-decoration: none;
+    background: white;
+    color: black;
+    padding: 14px 40px;
+    border-radius: 2px;
+}
+
+#button-gallery{
+    margin-top: 30px;
+    text-align: center;
+}
+

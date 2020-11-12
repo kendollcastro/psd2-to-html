@@ -382,3 +382,61 @@ p {
   background-color: #7bb84f;
   padding: 10px 25px;
   border-radius: 2px; }
+
+/*Our Gallery*/
+#our-gallery {
+  color: white;
+  background-color: #292c34;
+  padding-bottom: 70px; }
+
+#gallery-text {
+  text-align: center; }
+
+#our-content {
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+  padding: 70px 0; }
+
+/*Gallery imgs*/
+.gallery-block img {
+  float: left;
+  width: 160px;
+  height: 160px;
+  padding: 2px; }
+
+.gallery-block {
+  padding-bottom: 250px;
+  margin-bottom: 30px; }
+
+#button-gallery a {
+  text-decoration: none;
+  background: white;
+  color: black;
+  padding: 14px 40px;
+  border-radius: 2px; }
+
+#button-gallery {
+  margin-top: 30px;
+  text-align: center; }
+
+/*Special Offer*/
+#banner-offer {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding-bottom: 70px; }
+
+#banner-text h2 {
+  padding-top: 50px; }
+
+#banner-text {
+  margin: 0 auto;
+  width: 500px;
+  padding-bottom: 30px; }
+
+#button-banner a {
+  text-decoration: none;
+  color: #f9f9f9;
+  background-color: #e02d74;
+  padding: 24px 34px;
+  border-radius: 2px; }
