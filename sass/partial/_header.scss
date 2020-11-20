@@ -1,7 +1,7 @@
 /*Header*/
 
 .logo-titulo{
-    font-size: 16px;
+    font-size: 1rem;
     color: #ced0d1;
     float: left;
 }
@@ -24,7 +24,7 @@
 }
 
 .menu-list a{
-    font-size: 13px;
+    font-size: 0.81rem;
     color:  #ced0d1;
     text-decoration: none;
 }
@@ -33,5 +33,12 @@
     float: left;
     margin-left: 20px;
 }
+
+.menu-burguer img{
+    display: none;
+    width: 24px;
+    height: 24px;
+}
+
 
 

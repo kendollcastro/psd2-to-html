@@ -324,7 +324,7 @@ p {
 
 /*Header*/
 .logo-titulo {
-  font-size: 16px;
+  font-size: 1rem;
   color: #ced0d1;
   float: left; }
 
@@ -340,7 +340,7 @@ p {
   padding: 0; }
 
 .menu-list a {
-  font-size: 13px;
+  font-size: 0.81rem;
   color: #ced0d1;
   text-decoration: none; }
 
@@ -348,10 +348,12 @@ p {
   float: left;
   margin-left: 20px; }
 
-/*Main Content*/
-.slider {
-  width: 600px; }
+.menu-burguer img {
+  display: none;
+  width: 24px;
+  height: 24px; }
 
+/*Main Content*/
 #img-slider, img {
   margin-bottom: 0;
   display: block;
@@ -368,7 +370,7 @@ p {
 
 .main-text {
   margin: 0 auto;
-  width: 500px;
+  max-width: 500%;
   text-align: center; }
 
 .main-text p {
@@ -399,9 +401,9 @@ p {
 /*Gallery imgs*/
 .gallery-block img {
   float: left;
-  width: 160px;
+  width: 240px;
   height: 160px;
-  padding: 2px; }
+  padding: 1px; }
 
 .gallery-block {
   padding-bottom: 250px;
@@ -415,8 +417,11 @@ p {
   border-radius: 2px; }
 
 #button-gallery {
-  margin-top: 30px;
+  margin-top: 40px;
   text-align: center; }
+
+.img6-gallery {
+  margin-bottom: 40px; }
 
 /*Special Offer*/
 #banner-offer {
@@ -482,35 +487,31 @@ p {
   text-align: center; }
 
 .img-newsroom1 img {
+  max-width: 100%;
+  width: 100%;
   display: block; }
 
 .img-newsroom2 img {
+  max-width: 100%;
+  width: 100%;
   display: block; }
 
 .img-newsroom3 img {
+  max-width: 100%;
+  width: 100%;
   display: block; }
 
 .img-newsroom4 img {
+  max-width: 100%;
   width: 300px;
   height: 200px;
+  margin-bottom: 40px;
   display: block; }
 
-.img-newsroom1 {
+.colum-1 {
   float: left; }
 
-.img-newsroom2 {
-  float: right; }
-
-.img-newsroom3 {
-  float: left; }
-
-.img-newsroom1 {
-  float: left; }
-
-.img-newsroom2 {
-  float: right; }
-
-.img-newsroom3 {
+.colum-2 {
   float: left; }
 
 .img-text1 {
@@ -518,7 +519,6 @@ p {
   background-color: #0071bd;
   color: white;
   width: 200px;
-  float: right;
   padding: 57px 60px 50px 40px;
   text-align: left; }
 
@@ -528,15 +528,13 @@ p {
   color: white;
   width: 200px;
   padding: 57px 60px 47px 40px;
-  text-align: right;
-  float: left; }
+  text-align: right; }
 
 .img-text3 {
   line-height: 20px;
   background-color: #333c4d;
   color: white;
   width: 200px;
-  float: right;
   padding: 57px 60px 50px 40px;
   text-align: left; }
 
@@ -546,5 +544,31 @@ p {
   color: white;
   width: 200px;
   padding: 57px 60px 47px 40px;
-  text-align: right;
-  float: left; }
+  text-align: right; }
+
+@media (max-width: 1023px) {
+  .menu-list {
+    display: none; }
+  .menu-burguer img {
+    padding-top: 10px;
+    float: right;
+    display: block;
+    width: 24px;
+    height: 24px; } }
+
+@media (max-width: 767px) {
+  .colum-1 {
+    margin: 0 auto;
+    width: 300px;
+    float: none; }
+  .colum-2 {
+    margin: 0 auto;
+    width: 300px;
+    float: none; }
+  #gallery-block {
+    width: 50%;
+    margin: 0 auto; }
+  #gallery-block img {
+    max-width: 100%;
+    width: 100%;
+    display: block; } }

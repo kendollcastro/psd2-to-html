@@ -1,0 +1,26 @@
+@media(max-width: 767px){
+
+    .colum-1{
+        margin: 0 auto;
+        width: 300px;
+        float: none;
+    }
+    
+    .colum-2{
+        margin: 0 auto;
+        width: 300px;
+        float: none;
+    }
+
+    #gallery-block{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    #gallery-block img{
+        max-width: 100%;
+        width: 100%;
+        display: block;
+    }
+
+}
